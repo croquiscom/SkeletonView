@@ -96,10 +96,8 @@
 		F556F6D026CE2AB800A80B83 /* SkeletonTextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F6CE26CE2AB800A80B83 /* SkeletonTextNode.swift */; };
 		F556F6D926CE315A00A80B83 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F6D826CE315A00A80B83 /* UICollectionView+Extensions.swift */; };
 		F556F6DA26CE315A00A80B83 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F6D826CE315A00A80B83 /* UICollectionView+Extensions.swift */; };
-		F556F6DD26CE33CE00A80B83 /* UIView+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F6DC26CE33CE00A80B83 /* UIView+Swizzling.swift */; };
 		F556F6E026CE367600A80B83 /* UIView+SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F6DF26CE367600A80B83 /* UIView+SkeletonView.swift */; };
 		F556F6E126CE367600A80B83 /* UIView+SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F6DF26CE367600A80B83 /* UIView+SkeletonView.swift */; };
-		F556F6F626CE876300A80B83 /* UIView+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F6DC26CE33CE00A80B83 /* UIView+Swizzling.swift */; };
 		F556F70826D38F3100A80B83 /* SkeletonTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F70726D38F3100A80B83 /* SkeletonTreeNode.swift */; };
 		F5C84884274BB6F000004D1A /* SkeletonTextLineHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84883274BB6F000004D1A /* SkeletonTextLineHeight.swift */; };
 		F5C84885274BB6F000004D1A /* SkeletonTextLineHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84883274BB6F000004D1A /* SkeletonTextLineHeight.swift */; };
@@ -210,7 +208,6 @@
 		F556F6CB26CE2A7400A80B83 /* UITextView+SKExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+SKExtensions.swift"; sourceTree = "<group>"; };
 		F556F6CE26CE2AB800A80B83 /* SkeletonTextNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonTextNode.swift; sourceTree = "<group>"; };
 		F556F6D826CE315A00A80B83 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
-		F556F6DC26CE33CE00A80B83 /* UIView+Swizzling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Swizzling.swift"; sourceTree = "<group>"; };
 		F556F6DF26CE367600A80B83 /* UIView+SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SkeletonView.swift"; sourceTree = "<group>"; };
 		F556F70726D38F3100A80B83 /* SkeletonTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonTreeNode.swift; sourceTree = "<group>"; };
 		F5C84883274BB6F000004D1A /* SkeletonTextLineHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonTextLineHeight.swift; sourceTree = "<group>"; };
@@ -425,7 +422,6 @@
 				OBJ_26 /* UIView+CollectionSkeleton.swift */,
 				F556F69D26CD553B00A80B83 /* UIView+Extensions.swift */,
 				F556F6DF26CE367600A80B83 /* UIView+SkeletonView.swift */,
-				F556F6DC26CE33CE00A80B83 /* UIView+Swizzling.swift */,
 				OBJ_61 /* UIView+Transitions.swift */,
 				F53D731726D399E100249D46 /* SkeletonTreeNode+Extensions.swift */,
 			);
@@ -824,7 +820,6 @@
 				F556F6B026CE244100A80B83 /* DispatchQueue+Extensions.swift in Sources */,
 				F556F58026CD1F3900A80B83 /* Recursive.swift in Sources */,
 				F53D731C26D3A35100249D46 /* SkeletonExtended.swift in Sources */,
-				F556F6F626CE876300A80B83 /* UIView+Swizzling.swift in Sources */,
 				F556F58126CD1F3900A80B83 /* Swizzling.swift in Sources */,
 				F53D732426D3C3A800249D46 /* UILabel+SKExtensions.swift in Sources */,
 				F556F6B626CE258300A80B83 /* GradientDirection+Animations.swift in Sources */,
@@ -933,7 +928,6 @@
 				F556F68726CD49F900A80B83 /* UIView+IBInspectable.swift in Sources */,
 				F556F6C626CE2A2100A80B83 /* UILabel+IBInspectable.swift in Sources */,
 				F556F6D926CE315A00A80B83 /* UICollectionView+Extensions.swift in Sources */,
-				F556F6DD26CE33CE00A80B83 /* UIView+Swizzling.swift in Sources */,
 				F556F64D26CD2CF800A80B83 /* SkeletonDebug.swift in Sources */,
 				F556F6A426CD5A9000A80B83 /* CALayer+Animations.swift in Sources */,
 				OBJ_127 /* UIView+Transitions.swift in Sources */,
